@@ -14,7 +14,7 @@ Sub 填充cluster()
         result = Mid(worksheet_name, 5, Len(worksheet_name) - InStr(".", worksheet_name) - 9) '处理字符串还原工作簿名称
         'Sheets("Counter").Select
         Range("B2:B43").Select '选中区域
-        Selection.FormulaR1C1 = result ''写入区域名称
+        Selection.FormulaR1C1 = result '写入区域名称
         ActiveWorkbook.RefreshAll '刷新所有链接
         ActiveWorkbook.Save '保存
         ActiveWorkbook.Close '关闭
