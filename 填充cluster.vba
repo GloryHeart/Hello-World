@@ -1,5 +1,5 @@
 Sub 填充cluster()
-    CurrentPath = "D:\NIC Report KPI Data\个人\Week草稿\Week50草稿\PPT_分Cluster\"
+    CurrentPath = "?"
     fileobjecta = Dir(CurrentPath) '获取指定目录下第一个文件完整名称
     Application.Visible = False
     Do While fileobjecta <> "" And fileobjecta <> "Excel 自定义.exportedUI" '循环体条件
